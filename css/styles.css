@@ -68,7 +68,7 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0
+    padding: 24px 0px;
   }
   
   .nav-link {
@@ -90,6 +90,7 @@ body {
   .contacts-list{
     display: flex;
     align-items: center;
+    gap: 40px;
   }
   .contacts-link {
     font-size: 16px;
@@ -109,6 +110,7 @@ body {
   
   .hero {
     background-color: #2e2f42;
+    padding: 188px 0;
   }
 
   .section-hero {
@@ -150,7 +152,7 @@ body {
 
   .service {
     background: #f4f4fd;
-    padding: 120px;
+    padding: 120px 0;
   }
 
 
@@ -187,8 +189,12 @@ body {
 
   .team {
     background-color: #F4F4FD;
-    padding: 120px;
+    padding: 120px 0;
   }
+
+ .container {
+  padding: 120 0;
+ } 
   .section-team {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -200,6 +206,7 @@ body {
     text-transform: capitalize;
     margin-bottom: 72px;
     margin-bottom: 72px;
+    padding: 32px 0;
   }
 
   .section-service {
@@ -214,7 +221,8 @@ body {
   /*Portfolio*/
 
   .portfolio {
-    padding: 120px 0 120 0;
+    padding-top: 120px; 
+    padding-bottom: 120px;
   }
 
   .portfolio-list {
