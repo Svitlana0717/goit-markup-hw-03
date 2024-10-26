@@ -68,7 +68,7 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0px;
+    padding: 24px 0;
   }
   
   .nav-link {
@@ -155,6 +155,18 @@ body {
     padding: 120px 0;
   }
 
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    bottom: 0;
+    padding: 0;
+    word-spacing: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
   .service-list {
     margin: 24px;
@@ -163,6 +175,10 @@ body {
     align-items: center;
     display: flex;
     gap: 24px;
+  }
+
+  .section-item {
+    width: calc((100%-72px)/4);
   }
 
   .section-service {
@@ -237,6 +253,9 @@ body {
     column-gap: 24px; 
     row-gap: 48px;
   }
+  .portfolio-item{
+    width: calc((100%-48px)/3);
+  }
 
   .container-portfolio {
     padding: 32px 16px;
@@ -248,7 +267,6 @@ body {
   .team-list {
     display: flex;
     align-items: center;
-    margin: 24px;
     gap: 24px;
     display: flex;
     gap: 24px;
@@ -257,10 +275,11 @@ body {
   .team-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100%-72px)/4);
   }
 
   .container-taam {
-    padding: 32px;
+    padding: 32px 0;
   }
 
   .nav-link:hover,
@@ -292,3 +311,7 @@ body {
     margin-bottom: 16px;
   }
   
+  .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+  }
